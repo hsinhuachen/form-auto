@@ -1,0 +1,35 @@
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<div class="container-fluid">
+	<h1>自動填充表單</h1>
+	<form action="">
+		<h2>Credit Card</h2>
+		<div class="form-group">
+			<label for="frmNameCC">Name on card</label>
+			<input name="ccname" id="frmNameCC" required placeholder="Full Name" autocomplete="cc-name" class="form-control">
+		</div>
+		
+		<div class="form-group">
+			<label for="frmCCNum">Card Number</label>
+			<input name="cardnumber" id="frmCCNum" required autocomplete="cc-number" class="form-control">
+		</div>
+		
+		<div class="form-group">
+			<label for="frmCCCVC">CVC</label>
+			<input name="cvc" id="frmCCCVC" required autocomplete="cc-csc" class="form-control">
+		</div>
+		
+		<div class="form-group">
+			<label for="frmCCExp">Expiry</label>
+			<input name="cc-exp" id="frmCCExp" required placeholder="MM-YYYY" autocomplete="cc-exp" class="form-control">
+		</div>
+	</form>
+
+	<h2>Email</h2>
+	<form action="">
+		<div class="form-group">
+			<label for="frmEmailC">Confirm Email</label>
+			<input type="email" name="emailC" id="frmEmailC" placeholder="name@example.com" required autocomplete="email" class="form-control">
+		</div>
+	</form>
+</div>
