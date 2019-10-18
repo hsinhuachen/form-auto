@@ -32,4 +32,60 @@
 			<input type="email" name="emailC" id="frmEmailC" placeholder="name@example.com" required autocomplete="email" class="form-control">
 		</div>
 	</form>
+
+	<h2>Address</h2>
+	<form action="">
+		<div class="form-group">
+			<label for="frmAddressS">Address</label>
+			<input name="ship-address" required id="frmAddressS" placeholder="123 Any Street" autocomplete="shipping street-address" class="form-control">
+		</div>
+		<div class="form-group">
+			<label for="frmCityS">City</label>
+			<input name="ship-city" required id="frmCityS" placeholder="New York" autocomplete="shipping locality" class="form-control">
+		</div>
+		<div class="form-group">
+			<label for="frmStateS">State</label>
+			<input name="ship-state" required id="frmStateS" placeholder="NY" autocomplete="shipping region" class="form-control">
+		</div>
+		<div class="form-group">
+			<label for="frmZipS">Zip</label>
+			<input name="ship-zip" required id="frmZipS" placeholder="10011" autocomplete="shipping postal-code" class="form-control">
+		</div>
+		<div class="form-group">
+			<label for="frmCountryS">Country</label>
+			<input name="ship-country" required id="frmCountryS" placeholder="USA" autocomplete="shipping country" class="form-control">
+		</div>
+	</form>	
+
+	<h2>Phone</h2>
+	<form action="">
+		<div class="form-group">
+			<label for="frmPhoneNumA">Phone</label>
+			<input type="tel" name="phone" id="frmPhoneNumA" placeholder="+1-650-450-1212" required autocomplete="tel" class="form-control">
+		</div>
+	</form>	
+
+	<h2>支付表單</h2>
+	<form action="">
+		<div class="form-group">
+			<label for="frmNameCC">Name on card</label>
+			<input name="ccname" id="frmNameCC" required placeholder="Full Name" autocomplete="cc-name" class="form-control">
+		</div>
+		<div class="form-group">
+			<label for="frmCCNum">Card Number</label>
+			<input name="cardnumber" id="frmCCNum" required autocomplete="cc-number" class="form-control">
+		</div>
+		<div class="form-group">
+			<label for="frmCCCVC">CVC</label>
+			<input name="cvc" id="frmCCCVC" required autocomplete="cc-csc" class="form-control">
+		</div>
+		<div class="form-group">
+			<label for="frmCCExp">Expiry</label>
+			<input name="cc-exp" id="frmCCExp" required placeholder="MM-YYYY" autocomplete="cc-exp" class="form-control">
+		</div>
+	</form>
+	<footer style="height: 100px">
+		@copy;
+	</footer>
+
 </div>
